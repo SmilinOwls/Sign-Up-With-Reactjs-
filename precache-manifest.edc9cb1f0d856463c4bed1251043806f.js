@@ -20,16 +20,16 @@ self.__precacheManifest = [
     "url": "/Sign-Up-With-Reactjs-/static/media/registration-form-4.99305dd3.jpg"
   },
   {
-    "revision": "9c46095118380d38f12e67c916b427f9",
-    "url": "/Sign-Up-With-Reactjs-/static/media/Montserrat-Regular.9c460951.ttf"
-  },
-  {
     "revision": "a2fc08a54a46b0663a084ce4ba19cce2",
     "url": "/Sign-Up-With-Reactjs-/static/media/ElMessiri-SemiBold.a2fc08a5.ttf"
   },
   {
     "revision": "c88cecbffad6d8e731fd95de49561ebd",
     "url": "/Sign-Up-With-Reactjs-/static/media/Montserrat-SemiBold.c88cecbf.ttf"
+  },
+  {
+    "revision": "9c46095118380d38f12e67c916b427f9",
+    "url": "/Sign-Up-With-Reactjs-/static/media/Montserrat-Regular.9c460951.ttf"
   },
   {
     "revision": "16bda8c7b22c4ae29317c618a31cde58",
