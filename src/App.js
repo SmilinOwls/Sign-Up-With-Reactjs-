@@ -11,6 +11,15 @@ const phoneRegExp = /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2
 
 function App(props) {
 
+  const initialValues = {
+    username: '',
+    email: '',
+    phone: '',
+    password: '',
+    confirmPassword: '',
+    acceptTerms: false,
+  };
+
   const [user, setUser] = useState(props.user || {});
   const [score, setScore] = useState(props.score || 0);
   const [pwBtn, setPwBtn] = useState(props.pwBtn || 'show');
@@ -115,7 +124,7 @@ function App(props) {
       <div className='form'>
         <h3>Sign Up</h3>
         <Formik
-          initialValues={user}
+          initialValues={initialValues}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >
@@ -261,7 +270,7 @@ function App(props) {
                     Sign up
                   </button>
                   <button
-                    type='button'
+                    type='reset'
                     onClick={resetForm}
                   >
                     Reset
