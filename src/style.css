@@ -292,6 +292,12 @@ button {
   position: relative;
   top: -20px;
   left: 20px; }
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 @media (max-width: 767px) {
   .inner {
     display: block; }
@@ -300,8 +306,10 @@ button {
     width: 100%;
     padding-right: 0; }
 
-  form {
-    width: 100%;
+  .form {
+    width: 80%;
+    left: 10%;
+    position: relative;
     padding: 0px 15px 70px; }
 
   .wrapper {
